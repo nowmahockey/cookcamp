@@ -1,0 +1,177 @@
+body {
+  background-color: #f5f5dd;
+  margin: 0;
+}
+header {
+  border-bottom: solid 1px #ccc;
+  background-color: white;
+  color: #643;
+  padding-bottom: 0px;
+  padding: 4px 4px 0 4px;
+}
+article {
+  margin: 0 auto;
+  padding: 0px;
+  width: 600px;
+  float: left;
+}
+nav {
+  float: left;
+  margin: 10px 0px;
+}
+.navi {
+  border-bottom: dashed 1px #ccc;
+  padding: 4px;
+}
+.navii {
+  padding: 4px;
+}
+.nav {
+  margin: 0 0 13px 0;
+  padding: 1px 10px 6px 10px;
+  background-color: white;
+  width: 150px; 
+}
+section{
+  background-color: white;
+  margin: 10px 0px;
+}
+.aside {
+  margin-top: 10px;
+}
+aside {
+  padding: 0;
+  float: right;
+  width: 150px;
+}
+p {
+  clear: left;
+  margin: 0;
+}
+form {
+  float: right;
+}
+li {
+  list-style: none;
+}
+.list1 {
+  display: flex;
+  margin: 2px 0;
+  padding-left: 0;
+  color: #643;
+}
+.header {
+  border-right: solid 1px black;
+}
+.header,.header2 {
+  text-align: center;
+  flex: 1;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+.a,.b,.c,.d {
+  border-right: solid 1px black;
+}
+.main {
+  width: 960px;
+}
+h3 {
+  background-color: yellowgreen;
+  color: white;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  padding-left: 8px;
+  font-size: 19px;
+  font-weight: lighter;
+  border-radius: 15px;
+}
+header,article,section,nav,aside,footer {
+  display: block;
+}
+.newRecipes {
+  display: flex;
+  padding-left: 0px;
+  text-align: center;
+  font-size: 12px;
+}
+.newRecipes1,.newRecipes2,.newRecipes3,.newRecipes4,.newRecipes5 {
+  flex: 1;
+}
+.dish {
+  padding-top: 8px;
+  padding-left: 5px;
+  height: 17px;
+}
+.dish_resipi {
+  margin-bottom: 30px;
+}
+.wasyoku {
+  float: left;
+}
+.wasyoku_text {
+  float: left;
+  width: 300px;
+  margin-left: 30px;
+}
+.topics {
+  text-align: left;
+}
+section,nav,aside {
+  padding: 1px 10px;
+}
+.next {
+  text-align: right;
+  display: block;
+  color: orange;
+}
+.haru,.kahun {
+  float: left;
+}
+.section2 {
+  height: 400px;
+}
+.section3 {
+  height: 380px;
+}
+#main {
+  margin: 0 auto;
+  font-family: Arial;
+  width: 960px;
+  background-color: #f5f5dd;
+}
+dd{
+  width: 300px;
+  float: left;
+}
+dt{
+  width: 300px;
+  float: left;
+}
+.list2 {
+  display: flex;
+  font-size: 11px;
+}
+footer {
+  width: 100%;
+  border-top: solid 1px #ccc;
+  clear: both;
+  background-color: white;
+}
+.footer,.footer2 {
+  flex: 1;
+  text-align: center;
+}
+.footer {
+  border-right: black;
+}
+.content_width {
+  max-width: 960px;
+  margin: auto;
+}
+small {
+  text-align: center;
+  display: block;
+  color: #643;
+}
